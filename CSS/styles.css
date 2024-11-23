@@ -1,0 +1,15 @@
+body {
+  font-family: "Montserrat", sansserif;
+  font-weight: 600;
+  font-style: normal;
+  background-color: rgb(177, 177, 177);
+}
+
+h1 {
+  font-weight: 900;
+  color: rgb(44, 44, 44);
+}
+
+p {
+  font-size: 16px;
+}
