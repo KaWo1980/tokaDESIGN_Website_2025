@@ -2,14 +2,22 @@ body {
   font-family: "Montserrat", sansserif;
   font-weight: 600;
   font-style: normal;
-  background-color: rgb(177, 177, 177);
+  margin: 0 auto;
 }
 
-h1 {
+h1,
+h2,
+h3,
+h4 {
   font-weight: 900;
-  color: rgb(44, 44, 44);
+  color: #000000;
 }
 
 p {
   font-size: 16px;
+}
+
+.container {
+  font-weight: 900;
+  margin: 200px auto;
 }
