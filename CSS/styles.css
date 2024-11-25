@@ -1,26 +1,33 @@
 :root {
   --primary-color: #332e37;
   --secondary-color: #e6e4e9;
-  --third-color: #643988;
+  --third-color: #00ff31;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
 body {
+  font-family: "Montserrat", sansserif;
+  font-weight: 600;
+  font-style: normal;
   background-color: var(--secondary-color);
   padding-bottom: 50px;
 }
 
+h1,
+h2,
+h3 {
+  font-weight: 900;
+}
 h1 {
-  font-size: 96px;
+  font-size: 70px;
 }
 
 h2 {
-  font-size: 48px;
+  font: size 35px;
 }
 
 h3 {
-  font-size: 24px;
-  opacity: 0.7;
+  font-size: 20px;
 }
 
 p {
@@ -31,9 +38,12 @@ p {
 
 .content-centerd {
   margin: 45px;
-  text-align: center;
+  margin: 100px;
 }
-
+.navbar-nav {
+  font-family: "Montserrat", sansserif;
+  font-weight: 900;
+}
 .navigation-links {
   display: flex;
   margin-top: 40px;
