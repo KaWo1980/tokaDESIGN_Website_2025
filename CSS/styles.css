@@ -17,7 +17,14 @@ p {
   font-size: 16px;
 }
 
-.container {
+.logo {
+  max-height: 40px;
+  padding-right: 20px;
+}
+.content {
   font-weight: 900;
-  margin: 200px auto;
+  margin: 200px 150px;
+}
+.navbar-nav {
+  font-weight: 900;
 }
