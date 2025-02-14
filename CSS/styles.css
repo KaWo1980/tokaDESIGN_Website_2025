@@ -1,148 +1,15 @@
-:root {
-  --primary-color: #332e37;
-  --secondary-color: #e6e4e9;
-  --third-color: #00ff31;
-  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
-}
-
 body {
   font-family: "Montserrat", sansserif;
   font-weight: 600;
   font-style: normal;
-  padding-bottom: 50px;
+  background-color: rgb(177, 177, 177);
 }
 
-h1,
-h2,
-h3 {
-  font-weight: 900;
-}
 h1 {
-  font-size: 70px;
-}
-
-h2 {
-  font: size 35px;
-}
-
-h3 {
-  font-size: 20px;
+  font-weight: 900;
+  color: rgb(44, 44, 44);
 }
 
 p {
-  border-radius: 4px;
-  font-size: 18px;
-  line-height: 1.5;
-}
-
-.content {
-  margin: 200px;
-}
-
-.start_text {
-  margin-bottom: 150px;
-}
-.navbar-nav {
-  font-family: "Montserrat", sansserif;
-  font-weight: 900;
-}
-.navbar-brand img {
-  height: 30px;
-}
-.navigation-links {
-  display: flex;
-  margin-top: 40px;
-  justify-content: center;
-}
-
-.navigation-links a {
-  margin: 20px;
-  border-radius: 4px;
-  padding: 20px 15px;
-  text-decoration: none;
-  text-transform: capitalize;
-}
-
-.contact-link {
-  background: var(--primary-color);
-  box-shadow: var(--box-shadow);
-  color: white;
-}
-
-.about-link {
-  color: var(--primary-color);
-  border: 1px solid var(--primary-color);
-}
-
-.homepage-link {
-  color: var(--primary-color);
-  text-align: center;
-  display: block;
-}
-
-.about-paragraphs p {
-  margin: 30px 0;
-}
-
-.email-link {
-  display: flex;
-  justify-content: center;
-  color: var(--primary-color);
-  font-size: 28px;
-  text-decoration: none;
-}
-
-.email-link:hover {
-  color: var(--third-color);
-}
-
-.primary-link {
-  border-radius: 4px;
-  padding: 20px 15px;
-  text-decoration: none;
-  text-transform: capitalize;
-  background: var(--primary-color);
-  box-shadow: var(--box-shadow);
-  color: white;
-}
-
-.primary-link:hover {
-  background: var(--third-color);
-}
-
-.secondary-link {
-  border-radius: 4px;
-  border: solid 1px var(--primary-color);
-  padding: 20px 15px;
-  text-decoration: none;
-  text-transform: capitalize;
-  box-shadow: var(--box-shadow);
-  color: var(--primary-color);
-}
-
-.secondary-link:hover {
-  border: solid 1px var(--third-color);
-  color: var(--third-color);
-}
-
-@media (max-width: 576px) {
-  p {
-    font-size: 16px;
-  }
-  h1 {
-    font-size: 36px;
-  }
-
-  h2 {
-    font-size: 20px;
-  }
-
-  h3 {
-    font-size: 16px;
-  }
-
-  .primary-link {
-    display: block;
-    padding: 10px 5px;
-  }
+  font-size: 16px;
 }
