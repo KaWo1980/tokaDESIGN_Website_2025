@@ -1,15 +1,40 @@
+:root {
+  --branding-color: #000000;
+  --secondary-color: #ffffff;
+  --third-color: #00ff31;
+  --heading-font-weight: 900;
+}
+
 body {
   font-family: "Montserrat", sansserif;
   font-weight: 600;
   font-style: normal;
-  background-color: rgb(177, 177, 177);
+  color: var(--branding-color);
 }
 
 h1 {
-  font-weight: 900;
-  color: rgb(44, 44, 44);
+  font-weight: var(--heading-font-weight);
+  font-size: 48px;
 }
 
-p {
+.hero p {
+  font-weight: var(--heading-font-weight);
+  font-size: 32px;
+}
+.hero {
+  background-image: url(/images/red_dot_gantner_zutrittsystem_terminal_1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 200px 100px;
+  margin-top: 200px;
+}
+
+.btn-branding {
+  background: var(--branding-color);
+  color: var(--secondary-color);
+  font-weight: var(--heading-font-weight);
   font-size: 16px;
+  border-radius: 8px;
+  padding: 10px 30px;
+  margin: 80px 0;
 }
